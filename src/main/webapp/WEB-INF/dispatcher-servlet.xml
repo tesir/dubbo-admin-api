@@ -29,7 +29,7 @@
 	
 	<dubbo:application name="dubbo-admin-api" />
 
-	<dubbo:registry address="zookeeper://120.26.137.91:2181" check="false" file="false" />
+	<dubbo:registry address="zookeeper://192.168.137.40:2181" check="false" file="false" />
 
 	<dubbo:reference id="registryService" interface="com.alibaba.dubbo.registry.RegistryService" check="false" />
 	

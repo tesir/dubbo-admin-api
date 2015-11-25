@@ -30,7 +30,7 @@ public class Statistics {
     	for (Iterator<String> it=rawStr.iterator();it.hasNext();){
     		String raw = it.next();
     		
-    		if (destStr.indexOf(it.next()) == -1) {
+    		if (destStr.indexOf(raw) == -1) {
     			destStr.add(raw);
     		}
     	}
